@@ -21,7 +21,7 @@ The `pool` methods work without it.
 
 ```js
 var bitminter = require ('bitminter') ({
-  apikey: 'abc123'
+  apikey: 'BitminterPoolKey'
 });
 
 bitminter.users.get (function (err, user) {
@@ -54,7 +54,7 @@ timeout | number | 5000    | Wait time in milliseconds
 
 ```js
 var config = {
-  apikey: 'abc123',
+  apikey: 'BitminterPoolKey',
   timeout: 30000
 };
 
@@ -184,7 +184,7 @@ callback | function | yes      |         | Process results
 bitminter.users.get (console.log);
 
 // Someone else
-bitminter.users.get ('SomeUser', console.log);
+bitminter.users.get ('sychoset', console.log);
 ```
 
 
